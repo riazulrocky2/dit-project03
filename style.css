@@ -1,0 +1,641 @@
+    /* Default Design Section */
+    h1, h2, h3, h4, h5, h6, p, span, a{
+        font-family: 'Dosis', sans-serif;
+    }
+
+    .img{
+        max-width: 100%;
+    }
+
+    .padding-s{
+        padding: 50px;
+    }
+
+    .padding-m{
+        padding: 100px;
+    }
+
+    .padding-l{
+        padding: 150px;
+    }
+    
+    .default-btn a {
+        color: #223047;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 7px 26px;
+        background: #00fff0;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    
+    .default-btn a:hover{
+        box-shadow: 0px 0px 14px #00ffeeca;
+        transition: 0.2s;
+    }
+
+    .default-btn2 a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 7px 26px;
+        background: transparent;
+        border-radius: 5px;
+        margin: 5px;
+        border: 1px solid #fff;
+        box-sizing: border-box;
+    }
+
+    .default-btn2 a:hover{
+        background:  #00ffee;
+        color: #223047;
+        box-shadow: 0px 0px 14px #00ffeeca;
+        transition: 0.4s;
+        border: 1px solid #00ffee;
+    }
+
+
+    
+    /* Header Section */
+
+    .container {
+        max-width: 1000px;
+    }
+    
+    .header{
+        background: #223047;
+        padding: 12px 0;
+        border-bottom: 1px solid #434f63;
+    }
+    
+    .header-nav ul{
+        margin: 0;
+        line-height: 28px;
+    }
+    
+    .header-nav ul li{
+        list-style: none;
+        display: inline;
+        margin: 0 13px;
+    }
+    
+    .header-nav ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+        
+    .header-button{
+        text-align: right;
+        line-height: 31px;
+    }
+
+
+    /* Slider Section */
+    
+    .main-slider{
+        background: #223047;
+        padding-top: 0;
+    }
+
+    .slider-content {
+        position: relative;
+        top: 102px;
+    }
+
+    .slider-content p{
+        font-size: 18px;
+        margin: 55px 0;
+    }
+
+    .slider-btn1{
+        display: inline;
+    }
+
+    .slider-btn2{
+        display: inline;
+    }
+
+    .slider-mobile img{
+        width: 212px;
+        position: relative;
+        top: 170px;
+    }
+
+    /* Service Section */
+
+    .service-title h2::after{
+        content: '';
+        display: block;
+        width: 80px;
+        border-top: 4px solid #00ffee;
+        margin: 50px auto;
+    }
+
+    .services-sec{
+        padding-bottom: 350px;
+    }
+
+    .servone{
+        display: inline;
+        width: 23%;
+        float: left;
+        margin-left: 114px;
+    }
+
+    .serv1{
+        padding: 24px 22px;
+    }
+
+    .servone img{
+        width: 120px;
+        margin: 0 auto;
+    }
+
+    .servtwo{
+        display: inline;
+        width: 23%;
+        float: left;
+        margin-left: -27px;
+    }
+
+    .servtwo img{
+        width: 120px;
+        margin: 0 auto;
+    }
+
+    .servthree{
+        display: inline;
+        width: 23%;
+        float: left;
+        margin-left: -27px;
+    }
+
+    .servthree img{
+        width: 120px;
+        margin: 0 auto;
+    }
+
+    .servfour img{
+        width: 120px;
+        margin: 0 auto;
+    }
+
+    .servfour{
+        display: inline;
+        width: 22%;
+        float: left;
+        margin-left: -27px;
+    }
+
+    .services-sec p{
+        color: #b3bccf;
+    }
+    
+    /* Company Info Section */
+
+    .company-info{
+        width: 100%;
+        height: 500px;
+        margin: 100px 0;
+    }
+
+    .cin-blank{
+        width: 50%;
+        height: 500px;
+        float: left;
+        background: #323a4d;
+    }
+
+    .cin-content{
+        width: 50%;
+        height: 500px;
+        float: right;
+        padding-left: 120px;
+        padding-right: 179px;
+        background: #f5f6fa;
+    }
+
+    .cin-content h3{
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+    
+    .cin-content p {
+        font-size: 16px;
+        color: #808080;
+        line-height: 1.7;
+    }
+
+    .ci-content{
+        margin-top: 100px;
+    }
+
+
+    /* App Presentation Top */
+
+    .app-code-window img{
+        width: 443px;
+    }
+
+    /* App Presentation Middle */
+
+    .app-presentation-middle{
+        width: 100%;
+        height: 444px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin-top: 80px;
+    }
+    
+
+    .app-middle-img{
+        width: 50%;
+        float: left;
+    }
+
+    .app-middle-img img{
+        width: 408px;
+    }
+
+
+    .app-middle-content{
+        width: 42%;
+        float: left;
+        box-shadow: -1px 3px 6px #ddd;
+        padding-top: 14px;
+        padding-left: 27px;
+        position: relative;
+        left: 113px;
+    }
+
+    .heart-icon {
+        display: inline;
+        float: left;
+    }
+    
+    .heart-icon-content {
+        display: inline;
+        float: left;
+        margin-left: 20px;
+    }
+
+    .app-middle-content:hover{
+        background: #00fff0;
+        box-shadow: 0px 7px 7px #00ffee65;
+    }
+
+    .heart-div1{
+        position: relative;
+        top: 16px;
+    }
+
+    .heart-div{
+        margin-left: 49px;
+        position: relative;
+        top: -18px;
+    }
+
+    .flat-ui-p{
+        margin-left: 5px;
+    }
+
+
+    /* App Presentation Bottom */
+    .app-bottom-sec{
+        background: #f5f6fa;
+        width: 100%;
+        height: 542px;
+    }
+
+    .left-content{
+        width: 50%;
+        padding-right: 100px;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+
+    .left-content h3 {
+        margin-bottom: 60px;
+    }
+
+    .left-content .android, .iphone{
+        margin-right: 30px;
+    }
+
+
+    .right-content img{
+        position: relative;
+        bottom: 350px;
+        width: 456px;
+        margin-right: 167px;
+    }
+
+
+    /* Icon - 1 */
+
+    .android {
+        margin: 17px 0;
+    }
+
+    .android span i {
+        display: inline;
+        margin-right: 10px;
+        background: #00fff0;
+        padding: 3px;
+        border-radius: 50%;
+        font-weight: 600;
+    }
+    
+    .android p {
+        display: inline;
+    }
+
+    /* Icon - 2 Start*/
+
+    .iphone span i {
+        display: inline;
+        background: #00fff0;
+        padding: 3px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    
+    .iphone p {
+        display: inline;
+    }
+
+     /* Icon - 2 Finish*/
+
+    .p-cont{
+        width: 411px;
+        float: right;
+        margin-top: 50px;
+    }
+
+    .p-cont p{
+        color: #bcc4d5;
+    }
+
+
+
+    /* Video Section */
+
+    .video-section{
+        width: 100%;
+        float: left;
+        background: #223047;
+        color: #fff;
+    }
+
+    .before-play{
+        width: 20%;
+        float: left;
+    }
+
+    .video-content{
+        float: left;
+        padding: 150px 316px;
+    }
+
+    .video-content h4{
+        margin-bottom: 20px;
+    }
+
+    .after-play{
+        width: 20%;
+        float: left;
+    }
+    
+    .play-icon i{
+        color: #00fff0;
+        font-size: 72px;
+        margin-bottom: 33px;
+    }
+
+
+    /* Download Part */
+
+    .download-part{
+        background: url(./img/map.png) center center no-repeat;
+        background-size: auto;
+        max-width: 100%;
+        padding-top: 200px;
+        width: 100%;
+        height: 116px;
+        float: left;
+        padding-bottom: 300px;
+        text-align: center;
+    }
+
+
+    /* Quote Section */
+
+    .quote-section{
+        width: 100%;
+        float: left;
+        height: 302px;
+        background: #223047;
+        color: #00fff1;
+        padding: 129px 356px;
+        text-align: center;
+    }
+
+
+    /* App Ad Section */
+
+    .app-ad-section{
+        width: 100%;
+        background: #f5f6fa;
+        float: left;
+        padding: 100px 0;
+    }
+
+    .app-ad-image{
+        width: 50%;
+        float: left;
+    }
+
+    .app-ad-image img{
+        width: 367px;
+        margin-left: 204px;
+    }
+
+    .app-ad-content{
+        width: 50%;
+        float: left;
+        padding-right: 213px;
+        margin-top: 135px;
+    }
+
+    .app-ad-content p{
+        color: #97a4be;
+        margin: 50px 0;
+    }
+
+    .playstore-btn{
+        display: inline;
+    }
+
+
+    .iStore-btn{
+        display: inline;
+        margin-left: 20px;
+    }
+
+
+
+    /* Footer Before Button Section */
+
+    .before-footer-btn{
+        text-align: center;
+    }
+
+    .before-footer-btn a {
+        padding: 16px 58px;
+        position: relative;
+        bottom: 12px;
+    }
+
+
+    /* Footer Section */
+
+    .footer-section{
+        width: 100%;
+        float: left;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin-left: 120px;
+    }
+
+    .footer-section h5{
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .footer-section li{
+        list-style: none;
+        line-height: 30px;
+    }
+
+    .footer-section a{
+        text-decoration: none;
+        color: #a5b0c7;
+    }
+
+    .company{
+        width: 17%;
+        float: left;
+    }
+
+    .development{
+        width: 17%;
+        float: left;
+    }
+
+    .marketing{
+        width: 17%;
+        float: left;
+    }
+
+    .community{    
+        width: 17%;
+        float: left;
+    }
+
+    .info{
+        width: 17%;
+        float: left;
+    }
+
+
+    /* Subscribe Section */
+
+    .subscribe-section h4{
+        font-size: 32px;
+    }
+
+    .subscribe-section p{
+        color: #a5b0c7;
+        margin-top: 20px;
+        margin-bottom: 65px;
+    }
+
+    .subscribe-form {
+        padding-bottom: 80px;
+    }
+
+    .subscribe-form input{
+        background: #f5f6fa;
+        border: none;
+        outline: none;
+        padding: 11px 20px;
+        display: inline;
+        width: 475px;
+    }
+
+    .count-me-btn{
+        display: inline;
+    }
+
+    .count-me-btn a{
+        padding: 14px 30px;
+        border-radius: 0px;
+        margin-left: 25px;
+    }
+
+
+    /* Footer Bottom Section */
+
+    .footer-bottom{
+        background: #223047;
+        width: 100%;
+        float: left;
+    }
+
+    .copyright{
+        display: inline;
+        width: 16%;
+        float: left;
+        margin-left: 150px;
+        margin-top: 16px;
+    }
+    .copyright p{
+        color: #00fff0;
+    }
+    .social-icon{
+        width: 60%;
+        float: right;
+        text-align: right;
+        margin-right: 150px;
+        margin-top: 16px;
+    }
+    .social-icon i{
+        color: #fff;
+        font-size: 24px;
+    }
+
+    .facebook{
+        display: inline;
+        margin: 0 10px;
+    }
+    .twitter{
+        display: inline;
+        margin: 0 10px;
+    }
+    .dribble{
+        display: inline;
+        margin: 0 10px;
+    }
+    .google-plus{
+        display: inline;
+        margin: 0 10px;
+    }
+    .youtube{
+        display: inline;
+        margin: 0 10px;
+    }
+
+    .social-icon a{
+        color: transparent;
+    }
